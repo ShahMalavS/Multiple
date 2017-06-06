@@ -1,0 +1,93 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/WizardPageContainer"
+    android:orientation="vertical">
+
+    <TextView style="@style/WizardPageTitle" />
+
+    <ScrollView android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <LinearLayout android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView style="@style/WizardFormLabel"
+                android:text="@string/label_your_name" />
+
+            <EditText android:id="@+id/student_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:saveEnabled="false"
+                android:inputType="textCapWords"
+                android:hint="@string/hint_your_name"
+                android:layout_marginBottom="16dp" />
+
+            <TextView style="@style/WizardFormLabel"
+                android:text="@string/label_your_age" />
+
+            <EditText android:id="@+id/student_age"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:saveEnabled="false"
+                android:inputType="number"
+                android:hint="@string/hint_your_age"
+                android:layout_marginBottom="16dp"/>
+
+            <TextView style="@style/WizardFormLabel"
+                android:text="@string/label_your_school" />
+
+            <EditText android:id="@+id/student_school"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:saveEnabled="false"
+                android:inputType="text"
+                android:hint="@string/hint_your_school"
+                android:layout_marginBottom="16dp"/>
+
+            <TextView style="@style/WizardFormLabel"
+                android:text="@string/label_your_birth_date" />
+
+            <EditText android:id="@+id/student_birth_date"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:saveEnabled="false"
+                android:inputType="date"
+                android:hint="@string/hint_your_date"
+                android:layout_marginBottom="16dp"/>
+
+            <TextView style="@style/WizardFormLabel"
+                android:text="@string/label_your_address" />
+
+            <EditText android:id="@+id/student_address"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:saveEnabled="false"
+                android:inputType="textPostalAddress"
+                android:hint="@string/hint_your_address"
+                android:layout_marginBottom="16dp"/>
+
+            <TextView style="@style/WizardFormLabel"
+                android:text="@string/label_your_phonel" />
+
+            <EditText android:id="@+id/student_number"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:saveEnabled="false"
+                android:inputType="phone"
+                android:hint="@string/hint_your_phone"
+                android:layout_marginBottom="16dp"/>
+
+            <TextView style="@style/WizardFormLabel"
+                android:text="@string/label_your_email" />
+
+            <EditText android:id="@+id/student_email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:saveEnabled="false"
+                android:inputType="textEmailAddress"
+                android:hint="@string/hint_your_email" />
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Registration</string>
+
+    <string name="next">Next</string>
+    <string name="prev">Previous</string>
+    <string name="finish">Register</string>
+
+    <string name="submit_confirm_message">Confirm to Register</string>
+    <string name="submit_confirm_button">Regsiter</string>
+
+    <string name="label_your_name">Name</string>
+    <string name="hint_your_name">firstName lastName</string>
+    <string name="label_your_email">Email</string>
+    <string name="hint_your_email">xyz@gmail.com</string>
+    <string name="label_your_age">Age</string>
+    <string name="label_your_school">School</string>
+    <string name="hint_your_age">Your current age</string>
+    <string name="hint_your_school">Current school</string>
+    <string name="hint_your_date">yyyy-mm-dd</string>
+    <string name="label_your_birth_date">Birth Date</string>
+    <string name="hint_your_address">Full Address</string>
+    <string name="label_your_address">Address</string>
+    <string name="hint_your_phone">10 digit Phone Number</string>
+    <string name="label_your_phonel">Mobile Number</string>
+    <string name="refresh">Refresh</string>
+</resources>
